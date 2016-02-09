@@ -15,15 +15,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2708,
+				"buffer_size": 7546,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "polymerelements/flip-image.html",
+			"file": "GitTest.sublime-project",
 			"settings":
 			{
-				"buffer_size": 1786,
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polymerelements/image-card.html",
+			"settings":
+			{
+				"buffer_size": 1762,
 				"line_ending": "Windows"
 			}
 		}
@@ -77,6 +85,9 @@
 	],
 	"file_history":
 	[
+		"/D/Workspace/GitTest/bower_components/paper-header-panel/README.md",
+		"/D/Workspace/PolymerStarterKit/app/index.html",
+		"/D/Workspace/GitTest/css/style.css",
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/portfolio/Udacity.Portfolio/polymerelements/flip-image.html",
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/portfolio/Udacity.Portfolio/css/style.css",
 		"/C/Users/Niels/Google Drive/IT-Study/Udacity/Front-end developer/portfolio/Udacity.Portfolio/bower.json",
@@ -144,20 +155,48 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2708,
+						"buffer_size": 7546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
+								1059,
+								1059
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "GitTest.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -173,20 +212,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "polymerelements/flip-image.html",
+					"buffer": 2,
+					"file": "polymerelements/image-card.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1786,
+						"buffer_size": 1762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1027,
+								1027
 							]
 						],
 						"settings":
@@ -196,10 +235,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -211,7 +250,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -233,7 +272,7 @@
 		"cols":
 		[
 			0.0,
-			0.465866388309,
+			0.52584604172,
 			1.0
 		],
 		"rows":

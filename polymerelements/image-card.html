@@ -1,0 +1,77 @@
+<link rel="import"
+      href="http://www.polymer-project.org/1.0/components/polymer/polymer.html">
+
+<dom-module id="image-card">
+<style>
+      .local-container{
+        padding: 5px 5px 5px 5px;
+      }
+      .card {
+       -webkit-box-shadow: 1px 1px 1px 0px rgba(187,187,187,1);
+       -moz-box-shadow: 1px 1px 1px 0px rgba(187,187,187,1);
+        box-shadow: 1px 1px 1px 0px rgba(187,187,187,1);
+      }
+      .card-picture,
+      .card-description {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        padding: 2px 2px 2px 2px;
+      }
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+      .card-description {
+      }
+      .card.effect-hover:hover .card-picture {
+      }
+      .card.effect-hover:hover .card-description {
+      }
+</style>
+  <template>
+  <div class="local-container">
+    <div class="card effect-hover">
+        <div class="card-picture text-center">
+          <img src="{{src}}" alt="{{alt}}">
+          <aside class="card-description text-left"><content></content></aside>
+        </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <h3>{{title}}</h3>
+    <a href="{{link}}"><p>{{linktext}}</p></a>
+  </div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'image-card',
+      properties: {
+        src: {
+          type: String,
+          value: 'http://placehold.it/350x150'
+        },
+        alt: {
+          type: String,
+          value: 'This is the alternative text'
+        },
+        title: {
+          type: String,
+          value: 'Title text'
+        },
+        link: {
+          type: String,
+          value: '#'
+        },
+        linktext: {
+          type: String,
+          value: 'github.com'
+        }
+      }
+    });
+
+  </script>
+
+</dom-module>
+
+
