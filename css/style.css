@@ -29,22 +29,24 @@ body {
     text-align:left;
 }
 
-a:active,
-a:visited,
-a:link {
-    color:#4ecdc4;
+a {
+    color:#556270;
     text-decoration:none;
-    opacity:0.8;
+    text-decoration:none;
 }
 
 a:hover {
-    color:#4ecdc4;
-    text-decoration:none;
+
     opacity:1;
+    font-weight:bold;
 }
 
 article {
     padding:15px;
+}
+
+.paper-card {
+    width:310px;
 }
 
 .logo-left,

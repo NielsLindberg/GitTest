@@ -10,9 +10,9 @@
             font-size:16px;
         };
         }
-    .paperCard {
+    .paper-card {
         --paper-card-header-image-text: {
-            text-align:right;
+            text-align:left;
             color: #ffffff;
             background-color: #556270;
             font-size:16px;
@@ -24,15 +24,19 @@
         };
         --paper-card: {
             border-radius:2px;
-            background-color:#556270;
+            background-color:#ffffff;
+        };
+        --paper-card-content: {
+            padding: 5px;
         };
     }
-    .paperTooltip {
+    .paper-tooltip {
         --paper-tooltip: {
             font-size:14px;
             background-color:#ff6b6b;
             };
     }
+
     .grid-container {
         @apply(--layout-vertical);
         @apply(--layout-flex);
