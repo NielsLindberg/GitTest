@@ -14,9 +14,8 @@
     "tests"
   ],
   "dependencies": {
-    "google-map": "GoogleWebComponents/google-map#^1.1.10",
     "iron-elements": "PolymerElements/iron-elements#^1.0.8",
-    "jquery": "^2.2.0"
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
   },
   "authors": [
     "NielsLindberg <eighthourcream@gmail.com>"
