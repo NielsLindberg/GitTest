@@ -57,7 +57,8 @@ article {
 }
 
 .grid-container {
-    width:;
+    max-width:960px;
+    margin:auto;
 }
 
 .cardlist-container {
@@ -70,7 +71,7 @@ article {
 
 .title-name {
     font-size:22px;
-    color:#556270;
+    color:#4ecdc4;
 }
 
 .title-desc {

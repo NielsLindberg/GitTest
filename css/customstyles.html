@@ -6,6 +6,9 @@
     }
     paper-tabs {
         --paper-tabs-selection-bar-color: #556270;
+        --paper-tabs: {
+            font-size:16px;
+        };
         }
     .paperCard {
         --paper-card-header-image-text: {
@@ -17,10 +20,10 @@
             top:0px;
             bottom:auto;
             padding:5px 5px 5px 5px;
-            border-radius:4px;
+            border-radius:2px;
         };
         --paper-card: {
-            border-radius:4px;
+            border-radius:2px;
             background-color:#556270;
         };
     }
@@ -30,10 +33,9 @@
             background-color:#ff6b6b;
             };
     }
-
     .grid-container {
         @apply(--layout-vertical);
-        @apply(--layout-wrap);
+        @apply(--layout-flex);
     }
     .header-container {
         @apply(--layout-horizontal);
@@ -41,13 +43,6 @@
     }
     .title-container {
         @apply(--layout-flex);
-    }
-    .about-container {
-        @apply(--layout-vertical);
-        @apply(--layout-wrap);
-        --paper-material: {
-            border-radius:4px;
-        };
     }
     .cardlist-container {
         @apply(--layout-horizontal);
