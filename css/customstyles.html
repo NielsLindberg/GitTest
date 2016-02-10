@@ -30,6 +30,12 @@
             padding: 5px;
         };
     }
+    .paper-button {
+        --paper-button-ink-color: #c7f464;
+    }
+    .paper-icon-button {
+        --paper-icon-button-ink-color: #c7f464;
+    }
     .paper-tooltip {
         --paper-tooltip: {
             font-size:14px;
@@ -45,13 +51,12 @@
     }
     .cardlist-container {
         @apply(--layout-horizontal);
+        @apply(--layout-center-justified);
         @apply(--layout-wrap);
     }
     .card-container {
         @apply(--layout-wrap);
     }
-
-
     </style>
   </template>
 </dom-module>

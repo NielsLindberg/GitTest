@@ -32,17 +32,6 @@ body {
 a {
     color:#556270;
     text-decoration:none;
-    text-decoration:none;
-}
-
-a:hover {
-
-    opacity:1;
-    font-weight:bold;
-}
-
-article {
-    padding:15px;
 }
 
 .paper-icon-button {
@@ -50,7 +39,7 @@ article {
 }
 
 .paper-card {
-    width:310px;
+    max-width:310px;
 }
 
 .logo-left,
@@ -59,15 +48,8 @@ article {
     max-height:100%;
 }
 
-.title-container {
-}
-
 .grid-container {
     max-width:960px;
-    margin:auto;
-}
-
-.cardlist-container {
     margin:auto;
 }
 
@@ -83,4 +65,11 @@ article {
 .title-desc {
     font-size:15px;
     color:#ff6b6b;
+}
+
+@media screen and (max-width: 620px) {
+    .paper-card {
+        max-width:100%;
+    }
+
 }
