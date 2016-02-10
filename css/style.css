@@ -45,6 +45,10 @@ article {
     padding:15px;
 }
 
+.paper-icon-button {
+    float:right;
+}
+
 .paper-card {
     width:310px;
 }
