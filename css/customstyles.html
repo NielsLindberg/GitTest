@@ -1,0 +1,64 @@
+<dom-module id="customstyles">
+  <template>
+    <style>
+    paper-scroll-header-panel {
+        @apply(--layout-flex);
+    }
+    paper-tabs {
+        --paper-tabs-selection-bar-color: #556270;
+        }
+    .paperCard {
+        --paper-card-header-image-text: {
+            text-align:right;
+            color: #ffffff;
+            background-color: #556270;
+            font-size:16px;
+            opacity:0.8;
+            top:0px;
+            bottom:auto;
+            padding:5px 5px 5px 5px;
+            border-radius:4px;
+        };
+        --paper-card: {
+            border-radius:4px;
+            background-color:#556270;
+        };
+    }
+    .paperTooltip {
+        --paper-tooltip: {
+            font-size:14px;
+            background-color:#ff6b6b;
+            };
+    }
+
+    .grid-container {
+        @apply(--layout-vertical);
+        @apply(--layout-wrap);
+    }
+    .header-container {
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+    }
+    .title-container {
+        @apply(--layout-flex);
+    }
+    .about-container {
+        @apply(--layout-vertical);
+        @apply(--layout-wrap);
+        --paper-material: {
+            border-radius:4px;
+        };
+    }
+    .cardlist-container {
+        @apply(--layout-horizontal);
+        @apply(--layout-center-justified);
+        @apply(--layout-wrap);
+    }
+    .card-container {
+        @apply(--layout-wrap);
+    }
+
+
+    </style>
+  </template>
+</dom-module>
